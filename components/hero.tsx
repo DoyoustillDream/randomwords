@@ -22,7 +22,7 @@ export default function Hero() {
 
         <button
   className="px-6 py-3 bg-yellow-500 text-black font-semibold rounded-md hover:bg-yellow-400"
-  onClick={() => window.open("https://odin.fun", "_blank", "noopener,noreferrer")}
+  onClick={() => window.open("https://odin.fun/token/2gm1", "_blank", "noopener,noreferrer")}
 >
   Buy $WILD
 </button>

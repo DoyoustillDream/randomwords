@@ -20,9 +20,12 @@ export default function Hero() {
           Where the wild gains are. Join the wildest community in crypto and let the rumpus start!
         </p>
 
-        <button className="px-6 py-3 bg-yellow-500 text-black font-semibold rounded-md hover:bg-yellow-400">
-          Buy $WILD
-        </button>
+        <button
+  className="px-6 py-3 bg-yellow-500 text-black font-semibold rounded-md hover:bg-yellow-400"
+  onClick={() => window.open("https://odin.fun", "_blank", "noopener,noreferrer")}
+>
+  Buy $WILD
+</button>
       </div>
     </div>
   )
